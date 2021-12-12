@@ -5,6 +5,7 @@ import tensorflow as tf
 import dllogger
 
 from mrcnn_tf2.model.mask_rcnn import MaskRCNN
+from mrcnn_tf2.model.cascade_mask_rcnn import CascadeMaskRCNN
 from mrcnn_tf2.runtime.callbacks import DLLoggerMetricsCallback, DLLoggerPerfCallback, PretrainedWeightsLoadingCallback
 from mrcnn_tf2.runtime.evaluation import evaluate
 from mrcnn_tf2.runtime.learning_rate import PiecewiseConstantWithWarmupSchedule
@@ -117,7 +118,7 @@ def setup(params):
         logging.info('AMP is activated')
 
 
-def create_model(params, rgbd, backbone_model='swin_base_384', decode_head=MaskRCNN):
+def create_model(params, rgbd, backbone_model='swin_base_384', decode_head=CascadeMaskRCNN):
     model = decode_head(
         params=params,
         trainable='train' in params.mode,
