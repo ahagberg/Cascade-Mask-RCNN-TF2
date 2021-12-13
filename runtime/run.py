@@ -4,12 +4,12 @@ import os
 import tensorflow as tf
 import dllogger
 
-from mrcnn_tf2.model.mask_rcnn import MaskRCNN
-from mrcnn_tf2.model.cascade_mask_rcnn import CascadeMaskRCNN
-from mrcnn_tf2.runtime.callbacks import DLLoggerMetricsCallback, DLLoggerPerfCallback, PretrainedWeightsLoadingCallback
-from mrcnn_tf2.runtime.evaluation import evaluate
-from mrcnn_tf2.runtime.learning_rate import PiecewiseConstantWithWarmupSchedule
-from mrcnn_tf2.runtime.weights_mapping import WEIGHTS_MAPPING
+from model.mask_rcnn import MaskRCNN
+from model.cascade_mask_rcnn import CascadeMaskRCNN
+from runtime.callbacks import DLLoggerMetricsCallback, DLLoggerPerfCallback, PretrainedWeightsLoadingCallback
+from runtime.evaluation import evaluate
+from runtime.learning_rate import PiecewiseConstantWithWarmupSchedule
+from runtime.weights_mapping import WEIGHTS_MAPPING
 
 
 def run_training(train_data, params):

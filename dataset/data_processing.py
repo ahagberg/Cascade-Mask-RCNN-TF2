@@ -3,7 +3,7 @@ import numpy as np
 import h5py
 import tensorflow as tf
 from tensorflow._api.v2 import image
-from mrcnn_tf2.dataset.dataset_parser import dataset_parser
+from dataset.dataset_parser import dataset_parser
 import pickle
 import os
 from tqdm.auto import tqdm

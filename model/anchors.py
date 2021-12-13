@@ -20,7 +20,7 @@ from collections import OrderedDict
 import numpy as np
 import tensorflow as tf
 
-from mrcnn_tf2.object_detection import argmax_matcher, faster_rcnn_box_coder, region_similarity_calculator, \
+from object_detection import argmax_matcher, faster_rcnn_box_coder, region_similarity_calculator, \
     box_list, balanced_positive_negative_sampler, target_assigner
 
 

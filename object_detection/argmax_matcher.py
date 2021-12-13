@@ -26,7 +26,7 @@ factory function for popular implementations.
 """
 import tensorflow as tf
 
-from mrcnn_tf2.object_detection import matcher, shape_utils
+from object_detection import matcher, shape_utils
 
 
 class ArgMaxMatcher(matcher.Matcher):

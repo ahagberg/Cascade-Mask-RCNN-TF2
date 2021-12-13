@@ -32,7 +32,7 @@ from abc import ABCMeta, abstractmethod
 
 import tensorflow as tf
 
-from mrcnn_tf2.object_detection import ops
+from object_detection import ops
 
 
 class MinibatchSampler:

@@ -16,7 +16,7 @@ import math
 
 import tensorflow as tf
 
-from mrcnn_tf2.object_detection import preprocessor
+from object_detection import preprocessor
 
 
 def normalize_image(image):

@@ -1,6 +1,6 @@
 from .mask_rcnn import MaskRCNN
-from mrcnn_tf2.model.models.heads import BoxHead, MaskHead
-from mrcnn_tf2.model.losses import MaskRCNNLoss, FastRCNNLoss
+from model.models.heads import BoxHead, MaskHead
+from model.losses import MaskRCNNLoss, FastRCNNLoss
 
 class CascadeMaskRCNN(MaskRCNN):
     def __init__(self, params, name='cascade-mrcnn', backbone_model='swin_base_384', trainable=True, rgbd=False,

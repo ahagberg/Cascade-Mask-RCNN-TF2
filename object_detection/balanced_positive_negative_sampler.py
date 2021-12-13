@@ -32,7 +32,7 @@ This is originally implemented in TensorFlow Object Detection API.
 
 import tensorflow as tf
 
-from mrcnn_tf2.object_detection import minibatch_sampler, ops
+from object_detection import minibatch_sampler, ops
 
 
 class BalancedPositiveNegativeSampler(minibatch_sampler.MinibatchSampler):

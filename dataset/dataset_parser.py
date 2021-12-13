@@ -21,9 +21,9 @@ positive examples to normalize the loss during training.
 
 import tensorflow as tf
 
-from mrcnn_tf2.model import anchors
-from mrcnn_tf2.object_detection import tf_example_decoder
-from mrcnn_tf2.ops import preprocess_ops
+from model import anchors
+from object_detection import tf_example_decoder
+from ops import preprocess_ops
 import matplotlib.pyplot as plt
 from conf import Conf
 #from mrcnn_tf2.utils import coco_utils

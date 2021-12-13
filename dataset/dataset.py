@@ -27,7 +27,7 @@ import os
 
 import tensorflow as tf
 
-from mrcnn_tf2.dataset.dataset_parser import dataset_parser
+from dataset.dataset_parser import dataset_parser
 
 TRAIN_SPLIT_PATTERN = 'train*.tfrecord'
 EVAL_SPLIT_PATTERN = 'val*.tfrecord'

@@ -17,7 +17,7 @@ from __future__ import absolute_import, division, print_function
 
 import tensorflow as tf
 
-from mrcnn_tf2.utils import box_utils
+from utils import box_utils
 
 
 def generate_detections_per_image_tpu(cls_outputs,

@@ -40,7 +40,7 @@ back to rank 4.
 
 import tensorflow as tf
 
-from mrcnn_tf2.object_detection import box_list
+from object_detection import box_list
 
 
 def _flip_boxes_left_right(boxes):

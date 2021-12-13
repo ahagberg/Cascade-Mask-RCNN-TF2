@@ -31,7 +31,7 @@ images must be handled externally.
 """
 import tensorflow as tf
 
-from mrcnn_tf2.object_detection import box_list, shape_utils
+from object_detection import box_list, shape_utils
 
 KEYPOINTS_FIELD_NAME = 'keypoints'
 

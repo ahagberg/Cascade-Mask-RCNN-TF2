@@ -1,6 +1,6 @@
 import tensorflow as tf
 
-from mrcnn_tf2.model.models.resnet50 import BottleneckGroup, Conv2DBlock
+from model.models.resnet50 import BottleneckGroup, Conv2DBlock
 
 
 class ResNet50(tf.keras.Model):

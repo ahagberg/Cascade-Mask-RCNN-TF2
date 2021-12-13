@@ -23,7 +23,7 @@ from __future__ import absolute_import, division, print_function
 
 import tensorflow as tf
 
-from mrcnn_tf2.ops import spatial_transform_ops
+from ops import spatial_transform_ops
 
 
 class FPNNetwork(tf.keras.models.Model):

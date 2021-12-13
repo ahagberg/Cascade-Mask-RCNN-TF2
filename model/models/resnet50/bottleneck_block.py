@@ -1,6 +1,6 @@
 import tensorflow as tf
 
-from mrcnn_tf2.model.models.resnet50 import Conv2DBlock
+from model.models.resnet50 import Conv2DBlock
 
 
 class BottleneckBlock(tf.keras.layers.Layer):

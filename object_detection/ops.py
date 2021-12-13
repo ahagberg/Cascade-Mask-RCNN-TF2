@@ -18,7 +18,7 @@ This is originally implemented in TensorFlow Object Detection API.
 
 import tensorflow as tf
 
-from mrcnn_tf2.object_detection import shape_utils
+from object_detection import shape_utils
 
 
 def indices_to_dense_vector(indices,

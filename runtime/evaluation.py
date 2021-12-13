@@ -14,7 +14,7 @@
 """Functions to perform COCO evaluation."""
 import numpy as np
 
-from mrcnn_tf2.utils import coco_utils, coco_metric
+from utils import coco_utils, coco_metric
 
 ###########################################################################
 # Functions from matterport mask rcnn

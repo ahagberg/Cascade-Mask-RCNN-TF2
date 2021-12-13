@@ -1,6 +1,6 @@
 import tensorflow as tf
 
-from mrcnn_tf2.model.models.resnet50 import BottleneckBlock
+from model.models.resnet50 import BottleneckBlock
 
 
 class BottleneckGroup(tf.keras.layers.Layer):

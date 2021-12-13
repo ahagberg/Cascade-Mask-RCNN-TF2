@@ -1,13 +1,13 @@
 import tensorflow as tf
 from tensorflow.keras.layers import Conv2D
 
-from mrcnn_tf2.model import anchors
-from mrcnn_tf2.model.losses import MaskRCNNLoss, FastRCNNLoss, RPNLoss
-from mrcnn_tf2.model.models.fpn import FPNNetwork
-from mrcnn_tf2.model.models.heads import RPNHead, BoxHead, MaskHead
-from mrcnn_tf2.model.models.resnet50 import ResNet50
-from mrcnn_tf2.ops import roi_ops, spatial_transform_ops, postprocess_ops, training_ops
-from mrcnn_tf2.model.models.swin_pretrained import swin_transformer
+from model import anchors
+from model.losses import MaskRCNNLoss, FastRCNNLoss, RPNLoss
+from model.models.fpn import FPNNetwork
+from models.heads import RPNHead, BoxHead, MaskHead
+from model.models.resnet50 import ResNet50
+from ops import roi_ops, spatial_transform_ops, postprocess_ops, training_ops
+from model.models.swin_pretrained import swin_transformer
 
 class MaskRCNN(tf.keras.Model):
 

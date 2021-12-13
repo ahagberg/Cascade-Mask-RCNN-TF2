@@ -5,7 +5,7 @@ from collections import defaultdict
 import numpy as np
 import tensorflow as tf
 
-from mrcnn_tf2.utils.keras import KerasCallback
+from utils.keras import KerasCallback
 
 CONFIDENCE_INTERVAL_Z = {
     80.0: 1.282,

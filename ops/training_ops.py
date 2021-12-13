@@ -17,9 +17,9 @@ from __future__ import absolute_import, division, print_function
 
 import tensorflow as tf
 
-from mrcnn_tf2.object_detection import balanced_positive_negative_sampler
-from mrcnn_tf2.ops import spatial_transform_ops
-from mrcnn_tf2.utils import box_utils
+from object_detection import balanced_positive_negative_sampler
+from ops import spatial_transform_ops
+from utils import box_utils
 
 _EPSILON = 1e-8
 
